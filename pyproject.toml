@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "cologne-percipitation"
+version = "0.1.0"
+description = "Analysis of cologne percipitation"
+authors = ["Jonas Leininger <jonas.leininger@rewe-digital.com>"]
+readme = "README.md"
+packages = [{include = "cologne_percipitation"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^1.5.3"
+matplotlib = "^3.7.1"
+meteostat = "^1.6.5"
+jupyter = "^1.0.0"
+notebook = "^6.5.3"
+ipykernel = "^6.21.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
